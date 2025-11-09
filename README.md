@@ -70,7 +70,7 @@ Agradecimientos a las siguientes bibliotecas y recursos:
 
 ---
 ## **Autor**
-Lic. Fabricio Lopretto <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></h1>.
+Esp. Lic. Fabricio Lopretto <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></h1>.
 
 ---
 
