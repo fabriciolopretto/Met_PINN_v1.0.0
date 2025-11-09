@@ -1,5 +1,6 @@
 # **Wheater Forcast - Physics Informes Neuronal Network (PINN)** 
 ![Banner del Proyecto](banner/reticula.png)
+
 Imagen tomada de https://www.comet.ucar.edu © The COMET Program.
 
 Los resultados de este trabajo se utilizaron para la elaboración y defensa del **Trabajo Final de Posgrado** de ***Especialización en Inteligencia Artificial*** dictado por el Laboratorio de Sistemas Embebidos de la Facultad de Ingeniería de la Universidad de Buenos Aires.
