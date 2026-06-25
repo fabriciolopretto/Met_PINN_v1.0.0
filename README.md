@@ -1,82 +1,95 @@
 # **Wheater Forcast - Physics Informes Neuronal Network (PINN)** 
 ![Banner del Proyecto](banner/reticula.png)
 
-Imagen tomada de https://www.comet.ucar.edu © The COMET Program.
+Image adapted from https://www.comet.ucar.edu © The COMET Program.
 
-Los resultados de este trabajo se utilizaron para la elaboración y defensa del **Trabajo Final de Posgrado** de ***Especialización en Inteligencia Artificial*** dictado por el Laboratorio de Sistemas Embebidos de la Facultad de Ingeniería de la Universidad de Buenos Aires.
+The results of this work were used for the development and public defense of the **Final Thesis** of the **Postgraduate Specialization in Artificial Intelligence**, offered by the *Embedded Systems Laboratory* at the *Faculty of Engineering, University of Buenos Aires*.
 
-## **Tabla de Contenidos**
-1. [Resumen](#resumen)  
-2. [Características](#características)  
-3. [Instalación](#instalación)
-4. [Elementos](#ielementos)
-7. [Créditos](#créditos)
-8. [Autor](#alumno) 
-9. [Contacto](#contacto)   
+## **Table of Contents**
+
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Project Contents](#project-contents)
+5. [Credits](#credits)
+6. [Links](#links)
+7. [Author](#author)
+
+---
+## **Overview**
+
+This project focuses on the study, design, implementation, and evaluation of a **Physics-Informed Neural Network (PINN)** for atmospheric weather forecasting over southern South America.
+
+Throughout this work, several key topics were addressed, including meteorological data processing, the design of fully connected neural network architectures, the application of physics-informed machine learning principles, as well as training methodologies and optimization techniques.
+
+---
+## **Features**
+
+- 🧑‍🎓 Academic project.
+- 💽 Low storage requirements.
+- 💻 Minimal computational cost.
+- 🏫 Research-oriented.
+
+---
+---
+
+## **Installation**
+
+### Prerequisites
+
+- ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
+- 🛜 Internet connection
+
+### Steps
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/fabriciolopretto/Met_PINN_v1.0.0.git
+cd Met_PINN_v1.0.0
+```
 
 ---
 
-## **Resumen**
-El presente trabajo se enfoca en el estudio, diseño e implementación de algoritmos y evaluación de un modelo basado en redes neuronales informadas por física (PINN, por su sigla en inglés), para la generación de pronósticos atmosféricos en el sur de Sudamérica. Durante su realización se integraron conocimientos clave, tales como la manipulación de datos meteorológicos, el diseño de arquitecturas de redes neuronales completamente conectadas, la aplicación de conceptos básicos de aprendizaje de física, así como métodos de entrenamiento y técnicas de optimización.
+## **Project Contents**
+
+1. ERA5 reanalysis datasets.
+2. Trained model weight artifacts.
+3. Bibliographic references.
+4. Figures and images used throughout the thesis.
+5. Notebook for training the baseline (non-optimized) model.
+6. Notebook for training the optimized model.
+7. Notebooks for hyperparameter optimization.
+8. Notebooks for performing inference with the optimized model.
+9. Project plan.
 
 ---
 
-## **Características**
-- 🧑‍🎓 Académico.  
-- 💽 Baja necesidad de espacio.  
-- 💻​ Mínimo costo computacional.  
-- 🏫 Investigativo.
----
+## **Credits**
 
-## **Instalación**
-Pasos para instalar y configurar el proyecto:  
-
-### Requisitos Previos 
-- ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python) 
-- 🛜 Acceso a internet  
-
-### Pasos
-1. Clona el repositorio:  
-   ```bash  
-   git clone https://github.com/fabriciolopretto/Met_PINN_v1.0.0.git  
-   cd Met_PINN_v1.0.0
-
----
-
-## **Elementos**
-1. Archivos con datos de reanálisis ERA5.
-2. Artefactos con pesos de modelos entrenados.
-3. Bibliografía.
-4. Imagenes de de interes presentes en la menoria.
-5. Notebook para entrenamiento del modelo sin optmizar.
-6. Notebook para entrenamiento del modelo optmizado.
-7. Notebooks para optimización del modelo.
-8. Notebooks para realizar inferencias con el modelo optimizado. 
-9. Plan de proyecto.
-
----
-## **Créditos**
-Agradecimientos a las siguientes bibliotecas y recursos:
+This project makes use of the following libraries and resources:
 
 - Basemap
 - Pandas
 - netCDF4
-- Pytorch
+- PyTorch
 
 ---
+
 ## **Links**
-- 📝 Memoria del trabajo: https://doi.org/10.13140/RG.2.2.20876.99203
-- 🎥 Defensa pública: https://www.youtube.com/watch?v=52y_caAwPQk&t=11458s
-- 📽️ Demostración de funcionamiento: https://www.youtube.com/watch?v=kMiOIOJVSmw
 
----
-## **Autor**
-Esp. Lic. Fabricio Lopretto <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></h1>.
+- 📝 Thesis manuscript: https://doi.org/10.13140/RG.2.2.20876.99203
+- 🎥 Public thesis defense: https://www.youtube.com/watch?v=52y_caAwPQk&t=11458s
+- 📽️ Project demonstration: https://www.youtube.com/watch?v=kMiOIOJVSmw
 
 ---
 
-## **Contacto**
-Para dudas o sugerencias, contacto en:
+## **Author**
+
+**Esp. Lic. Fabricio Lopretto**
+<img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">
+
+## **Contact**
 <a href="mailto:fabriciolopretto@gmail.com.ar">
   <img alt="Email" src="https://img.shields.io/badge/Gmail-fabriciolopretto@gmail.com-blue?style=flat-square&logo=gmail">
 </a>
